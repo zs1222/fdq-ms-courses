@@ -1,0 +1,126 @@
+/*--- INI :: buttons, message box -----------------------------------------------------------------------------------------------------------------------*/
+	.mscm_btn_add{
+		border: 1px solid #ccc; border-radius: 2px; text-decoration: none;background: #f7f7f7; 
+		font-weight: 600; font-size: 13px; color: #0073aa; padding:4px 8px; cursor: pointer;
+	}
+	.mscm_btn_add:hover{ border-color: #008EC2; background: #00a0d2; color: #fff; }
+
+	.mscm_btn{
+		background-color: #008EC2;padding: 5px 20px;border: 1px solid #008EC2;border-radius: 3px;/*box-shadow: 1px 1px 2px #3c3c3c;*/
+		margin-right: 15px;color: #fff;/*text-transform: uppercase;*/text-decoration: none;font-size: 12px;font-weight: 700;cursor: pointer;
+	}
+	.mscm_btn:hover{ color:#fff; background-color: #2784af; border: 1px solid #2784af; }
+
+	.mscm_btn_cancel{
+		background-color: #008EC2; padding: 5px 20px; border: 1px solid #008EC2; border-radius: 3px; /*box-shadow: 1px 1px 2px #3c3c3c;*/
+		margin-right: 15px; color: #fff; /*text-transform: uppercase;*/ text-decoration: none; font-size: 12px; font-weight: 700; cursor: pointer;
+	}
+	.mscm_btn_cancel:hover{ color:#fff; background-color: #2784af; border: 1px solid #2784af; }
+	
+	/*--- message box ---*/
+	.mscm_error_msg{ float:left; width:97%; box-sizing: border-box; background:#ffc; padding:10px; color:#b31d1d; font-size:14px; margin:10px 0 10px 0; font-weight: 700; }
+	.mscm_success_msg01 { float:left; width:97%; box-sizing: border-box; background:#ffc; padding:10px; color:#009929; font-size:14px; margin:10px 0 10px 0; font-weight: 700; }
+/*--- END :: buttons, message box -----------------------------------------------------------------------------------------------------------------------*/
+
+/*--- INI :: List and add edit view page style ----------------------------------------------------------------------------------------------------------*/
+	/*--- list style ---*/
+	.mscm_main_wrapper{ width:100%; /*background-color:#ffc; border:1px solid #000;*/ }
+	.mscm_addNewWrapper{ float:left; width:100%; font-weight: 700; margin: 20px 0 0 0; }
+	.mscm_addNewWrapper p{ font-size:20px; }
+
+	.mscm_top_txt{ float:left; width:97%; box-sizing: border-box; margin:0 0 10px 0;font-size:24px;line-height:30px;padding:10px 0; }
+	.mscm_top_txt .tlabel{font-weight: 700; color:#272727;}
+	.mscm_top_txt .tname{font-weight: 300; color:#525252;}
+
+	.mscm_top_btn_wrapper{float: left;width: 97%;box-sizing: border-box;margin: 15px 0 0 0;font-size: 24px;line-height: 30px;padding: 0;}
+
+	.mscm_search_wrapper{ float: left; width: 97%; padding: 1px 0 10px; /*text-align: right;*/ /*background: #63633a;*/ }
+	.mscm_search_wrapper .mscm_search_col01{float:left; width:25%;max-width:170px;/*background-color:#ffffcc;*/}
+	.mscm_search_wrapper .mscm_search_col02{float:left; width:25%;max-width:70px;/*background-color:#ccffe9;*/}
+	.mscm_search_wrapper .mscm_search_col03{float:left; width:25%;max-width:100px;/*background-color:#ccdcff;*/}
+	.mscm_search_wrapper .mscm_search_col04{float:left; width:25%;max-width:70px;padding:16px 0 1px 0;/*background-color:#ccd1ff;*/}
+
+	.mscm_list_wrapper{float: left;width: 97%;border: 1px solid #e1e1e1;}
+	.mscm_list_title_wrapper{ float:left;width:100%; padding:0; }
+	.mscm_list_title{ float:left;padding: 10px 10px 10px 10px;box-sizing: border-box;background-color:#fff; border-bottom: 1px solid #e1e1e1; font-weight:700; }
+
+	.mscm_list_content_wrapper{ float:left;width:100%; padding:0; }
+	.mscm_list_content_wrapper:nth-child(odd) { background-color: #ffffff; }
+	.mscm_list_content_wrapper:nth-child(even) { background-color: #f1f1f1; }
+
+	.mscm_list_content{ float:left;box-sizing:border-box;padding: 10px 10px 10px 10px; font-weight:400; color:#000; }
+	.mscm_list_content .course_icon{ width:auto; height:45px; }
+
+	/*.mscm_list_wrapper .cat_row{ float:left;width:100%; }
+	.mscm_list_wrapper .cat_row:nth-child(odd) { background-color: #ffffff; }
+	.mscm_list_wrapper .cat_row:nth-child(even) { background-color: #f1f1f1; }*/
+
+	.mscm_inactive{ color:#9e9e9e; }
+
+	/*--- add style --*/
+	.mscm_page_title{float:left;width:100%;font-weight:700;padding:14px 0;font-size:20px;margin:20px 0 20px 0;}
+	.mscm_iconWrapper{ float:left; width:100%; max-width:1100px; padding:5px; /*background-color:#ffc;*/ }
+	.mscm_iconWrapper .mscm_icon{ float:left; padding:5px; margin:0 5px; text-align: center; border:1px solid #ccc; /*background:#ffc;*/ }
+	.mscm_iconWrapper .mscm_icon img{ width:auto; height:70px; }
+	.mscm_iconWrapper .mscm_icon p{ font-weight:700; }
+	
+	.mscm_row{ float:left; width:100%; padding:0 0 12px 0; }
+	.mscm_row .mscm_field_title{ font-size: 14px; font-weight:700; }
+	.mscm_row input[type=text] { width: 100%; max-width: 335px; height: 35px; font-size:16px; }
+	.mscm_row input[type=tel] { width: 100%; max-width: 335px; height: 35px; font-size:16px; }
+	.mscm_row input[type=password] { width: 100%; max-width: 335px; height: 35px; font-size:16px; }
+	.mscm_row textarea { width: 100%; max-width: 335px; height: 100px; font-size:16px; }
+	.mscm_row select { width:100% !important;max-width:335px;height:35px;font-size:16px !important;}
+
+	.mscm_btn_row{ float:left; width:100%; padding:0 0 12px 0; }
+
+	.fdq_mscm_btn_generatecsv {
+		border: 1px solid #ccc;border-radius: 2px;text-decoration: none;background: #0073aa;font-weight: 600;
+		font-size: 13px;color: #ffffff;padding: 6px 17px;cursor: pointer;margin-left: 15px;
+	}
+	.fdq_mscm_btn_generatecsv:hover {border-color: #008EC2;background: #00a0d2;color: #fff;}
+/*--- END :: List page style ----------------------------------------------------------------------------------------------------------------------------*/
+
+/*--- INI :: Success message wrapper customization ------------------------------------------------------------------------------------------------------*/
+	.mscm_successMsgWrapper{ width:100%; }
+	.mscm_successMsgWrapper .mscm_successMsgInner{ width: 90%; max-width: 450px; margin: 0 auto; border-radius: 5px; text-align: center; padding: 60px 0; /*background-color: #ffc;*/}
+
+	.mscm_successMsgWrapper .mscm_success_msg{ float:left; width:100%; padding:0; color:#009929; font-size:20px; margin:0 0 45px 0; font-weight: 700; }
+	.mscm_successMsgWrapper .mscm_successMegButtons{float:left; width:100%; padding: 15px 0; text-align: center; }
+/*--- END :: Success message wrapper customization ------------------------------------------------------------------------------------------------------*/
+
+/*--- INI :: PAGINATION ---------------------------------------------------------------------------------------------------------------------------------*/
+	.paginationOuter{ float:left; width:100%; box-sizing: border-box; padding:20px 0; }
+	.paginationWrapper{ width:250px; /*background-color: #fff;*/ margin:0 auto; padding:15px 0; }
+	.cssFirstPg{float:left; text-align:center; margin:0 5px 0 18px; }
+	.cssFirstPg a{ width:30px; color:#5f5f5f; border:1px solid #ccc; background-color: #ececec; display:inline-block; padding: 5px 0; text-decoration:none; }
+	.cssFirstPg a:hover{ background-color: #f9f9f9; }
+
+	.cssPrevPg{ float:left; text-align:center;  margin:0 5px 0 0; }
+	.cssPrevPg a{ width:30px; color:#5f5f5f; border:1px solid #ccc; background-color: #ececec; display:inline-block; padding: 5px 0; text-decoration:none;}
+	.cssPrevPg a:hover{ background-color: #f9f9f9; }
+
+	.cssCurPg{ float: left; width: 80px; text-align: center; padding: 2px 0 0 0; }
+
+	.cssNextPg{float:left; text-align:center; margin:0 5px 0 0; }
+	.cssNextPg a{ width:30px; color:#5f5f5f; border:1px solid #ccc; background-color: #ececec; display:inline-block; padding: 5px 0; text-decoration:none;}
+	.cssNextPg a:hover{ background-color: #f9f9f9; }
+
+	.cssLastPg{float:left;text-align:center; margin:0 5px 0 0; }
+	.cssLastPg a{ width:30px; color:#5f5f5f; border:1px solid #ccc; background-color: #ececec; display:inline-block; padding: 5px 0; text-decoration:none;}
+	.cssLastPg a:hover{ background-color: #f9f9f9; }
+/*--- END :: PAGINATION ---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--- INI :: ADMIN POPUP CUSTOMIZATION ------------------------------------------------------------------------------------------------------------------*/
+	.mscm_playVideo{ cursor: pointer; }
+	.mscm_playAudio{ cursor: pointer; }
+
+	.mscm_adm_popupWrapper { width:100%; height:100%; position:fixed; top:0; left:0; background:transparent; z-index:999999; display:none; }
+	.mscm_adm_popupInnerBox{ width:100%; max-width:900px; text-align: center; margin:2.5% auto 0; background:#fff; border:1px solid #555; box-shadow:2px 2px 40px #222; padding:20px;border-radius: 15px; }
+	.mscm_adm_popupGreyBg {background:#000;opacity:0.6;position:fixed;width:100%;height:100%;top:0;left:0; z-index: 10012; display:none;}
+	.mscm_adm_popup-close-btn{ width:100%; text-align:right; height:22px; }
+	.mscm_adm_popup-close-btn span{ font-size:25px; display:inline-block; margin:-11px -12px 0 0; float:right; cursor: pointer; }
+
+	.mscm_adm_videowrapper { float: none;clear: both;width: 100%;position: relative;padding-bottom: 56.25%;padding-top: 2px;height: 0; } /* play with padding-top from 25px to 30px*/
+	.mscm_adm_videowrapper iframe { position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+/*--- END :: ADMIN POPUP CUSTOMIZATION ------------------------------------------------------------------------------------------------------------------*/
